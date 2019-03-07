@@ -27,17 +27,33 @@ class LoginViewController: UIViewController {
     }
 
 
-    @IBAction func btnLoginClick(_ sender: UIButton) {
+    @IBAction func btnLoginClick(_ sender: Any) {
+    
+        let email = self.txtUserEmail.text
+        let pwd = self.txtUserPassword.text
         
-        let email = txtUserEmail.text
-        let pwd = txtUserPassword.text
-
         if(email == "a@a.com" && pwd == "123")
         {
             print("Login Success...")
+            
+            let sb = UIStoryboard(name: "Main", bundle: nil)
+            let homeVC = sb.instantiateViewController(withIdentifier: "HomeVC") as! HomeViewController
+            
+            self.navigationController?.pushViewController(homeVC, animated: true)
+            //self.present(homeVC, animated: true)
+            
+        
+            if(self.swRememberMe.isOn)
+            {
+                print("Write Code to remember/store userId/Password")
+            }
+            else
+            {
+                print("Remove UserId/Password if previously remembered/stored")
+            }
+            
+            
         }
-            
-            
             else
             
             {
@@ -56,3 +72,4 @@ class LoginViewController: UIViewController {
 
 
 }
+

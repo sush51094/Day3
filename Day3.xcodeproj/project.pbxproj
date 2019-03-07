@@ -15,6 +15,7 @@
 		9BA5FA3D22308B6700C35C6B /* Day3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA5FA3C22308B6700C35C6B /* Day3Tests.swift */; };
 		9BA5FA4822308B6700C35C6B /* Day3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA5FA4722308B6700C35C6B /* Day3UITests.swift */; };
 		9BA5FA5A22308DB400C35C6B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA5FA5922308DB400C35C6B /* HomeViewController.swift */; };
+		9BA5FA5C2230A0CF00C35C6B /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA5FA5B2230A0CF00C35C6B /* AboutUsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9BA5FA4722308B6700C35C6B /* Day3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3UITests.swift; sourceTree = "<group>"; };
 		9BA5FA4922308B6700C35C6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BA5FA5922308DB400C35C6B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9BA5FA5B2230A0CF00C35C6B /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				9BA5FA3022308B6700C35C6B /* LaunchScreen.storyboard */,
 				9BA5FA3322308B6700C35C6B /* Info.plist */,
 				9BA5FA5922308DB400C35C6B /* HomeViewController.swift */,
+				9BA5FA5B2230A0CF00C35C6B /* AboutUsViewController.swift */,
 			);
 			path = Day3;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BA5FA5C2230A0CF00C35C6B /* AboutUsViewController.swift in Sources */,
 				9BA5FA2A22308B6500C35C6B /* LoginViewController.swift in Sources */,
 				9BA5FA2822308B6500C35C6B /* AppDelegate.swift in Sources */,
 				9BA5FA5A22308DB400C35C6B /* HomeViewController.swift in Sources */,
